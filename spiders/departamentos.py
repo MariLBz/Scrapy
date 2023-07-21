@@ -1,6 +1,6 @@
 import scrapy
 
-class NachosSpider(scrapy.Spider):
+class DepartamentosSpider(scrapy.Spider):
     name = "departamentos"
     allowed_domains = ["listado.mercadolibre.com.ar"]
     start_urls = ["https://inmuebles.mercadolibre.com.ar/departamentos/venta/cordoba/"]
